@@ -1,0 +1,130 @@
+/* From 0px to 320px */
+@media (min-width: 0px) {
+    .container {
+        padding: 0 15px;
+    }
+    .ImageFrom_FirstSection {
+      max-width: 230px;
+    }
+}
+
+/* From 320px to 576px */
+@media (min-width: 319.98px){
+  .container {
+    max-width: 290px;
+    margin: auto;
+    padding: 0;
+  }
+  .ImageFrom_FirstSection {
+    max-width: 290px;
+    margin: auto;
+    padding: 0;
+  }
+  .body-PictureFrom-Booking {
+    
+  }
+}
+
+/* From 576px to 768px */
+@media (min-width: 575.98px){
+    .container {
+      max-width: 540px;
+      margin: auto;
+      padding: 0;
+    }
+    .ImageFrom_FirstSection {
+      max-width: 540px;
+      margin: auto;
+      padding: 0;
+    }
+    
+  }
+
+ /* From 768px to 992px */
+@media (min-width: 767.98px){
+    .container {
+      max-width: 720px;
+    }
+    .ImageFrom_FirstSection {
+      max-width: 720px;
+    }
+    .PicturesFrom-Booking {
+       margin-bottom: 120px !important;
+    }
+    
+    .body-PictureFrom-Booking {
+      max-width: 720px;
+    }
+    .SecondHalf-Menu {
+      height: 700px;
+      width: 470px;
+      background: white;
+      margin-top: 100px;
+    }
+    
+  }
+
+  /* From 992px to 1200px */
+@media (min-width: 991.98px) {
+    .container {
+      max-width: 960px;
+    }
+    .ImageFrom_FirstSection {
+      max-width: 960px;
+    }
+    .body-PictureFrom-Booking {
+      max-width: 960px;
+    }
+    .picture {
+      width: 544px;
+    }
+    .SecondHalf-Menu {
+      height: 1000px;
+      width: 670px;
+      background: white;
+      margin-top: 100px;
+    }
+  }
+
+  /* From 1200px to 1440px */
+@media (min-width: 1199.98px){
+    .container {
+      max-width: 1140px;
+    }
+    .ImageFrom_FirstSection {
+      max-width: 1140px;
+    } 
+    .Picture1-FromBooking {
+      margin-bottom: 20px;
+    }
+    .menu-body {
+      display: flex;  
+    }
+    .body-PictureFrom-Booking {
+      max-width: 1140px;
+    }
+    .body-PictureFrom-Booking {
+      display: flex;
+    } 
+    .body-PictureFrom-Booking div {
+      
+    } 
+  }
+
+  /* From 1440px to infinity 
+  Full HD
+  */
+@media (min-width: 1439.98px){
+  .container {
+    max-width: 1330px;
+  }
+  .ImageFrom_FirstSection {
+    max-width: 1330px;
+  }
+  .body-PictureFrom-Booking {
+    max-width: 1330px;
+  }
+  .picture {
+    width: 644px;
+  }
+}
